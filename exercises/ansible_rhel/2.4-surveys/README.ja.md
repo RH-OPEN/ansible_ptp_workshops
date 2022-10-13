@@ -41,7 +41,7 @@ Playbook の追加変数を設定しますが、ユーザーが使いやすい�
 ### Apache-configuration ロール
 
 Jinja2 テンプレートの Playbook とロールが、ディレクトリー `rhel/apache` の Github リポジトリー
-[https://github.com/ansible/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
+[https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
 に既に存在します。
 
  Github UI にアクセスして、コンテンツを確認します。Playbook `apache_role_install.yml` は単にロールを参照します。ロールは、`roles/role_apache` サブディレクトリーにあります。
