@@ -30,7 +30,7 @@ Ansible 自動コントローラー **Project** は、AnsiblePlaybook の論理�
 
 このデモでは、Git リポジトリーに保存されている Playbook を使用します。
 
-[https://github.com/ansible/workshop-examples](https://github.com/ansible/workshop-examples)
+[https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
 
 Apache Web サーバーをインストールする Playbook が既に **rhel/apache** ディレクトリーにコミットされている
 (`apache_install.yml`):
