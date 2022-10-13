@@ -114,7 +114,7 @@ Apache Web サーバーをインストールする Playbook が既に **rhel/apa
    </tr>
    <tr>
      <td>Source Control URL</td>
-     <td><code>https://github.com/ansible/workshop-examples.git</code></td>
+     <td><code>https://github.com/RH-OPEN/workshop-examples.git</code></td>
    </tr>
    <tr>
      <td>Options</td>
