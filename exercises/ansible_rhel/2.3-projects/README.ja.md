@@ -190,7 +190,7 @@ Ansible **Job**を実行する前に、まとめる **Job Template** を作成�
    </tr>
    <tr>
      <td>Options</td>
-     <td>tasks need to run as root so check **Privilege Escalation**</td>
+     <td>tasks need to run as root so check **Privilege Escalation** </td>
    </tr>
  </table>
 
