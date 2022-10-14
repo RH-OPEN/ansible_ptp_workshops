@@ -18,7 +18,7 @@
 
 Ansible Automation Controller [survey
 機能](https://docs.ansible.com/automation-controller/latest/html/userguide/job_templates.html#surveys)
-の使用のデモンストレーションを行います。Survey は、「Prompt for Extra Variables (追加変数のプロンプト)」と同様に
+を使った変数への値入力について確認してみましょう。Survey は、「Prompt for Extra Variables (追加変数のプロンプト)」と同様に
 Playbook の追加変数を設定しますが、ユーザーが使いやすい質問と回答を使ってこれを実行します。また、Survey
 ではユーザー入力を検証することもできます。
 
