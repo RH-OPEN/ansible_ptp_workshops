@@ -201,7 +201,7 @@ Web UI を介して、または自動コントローラー制御ホストで `[a
 ---
 **ナビゲーション**
 <br>
-[前の演習](../2.1-intro) - [次の演習](../2.3-projects)
+[前の演習](../2.1-intro/README.ja.md) - [次の演習](../2.3-projects/README.ja.md)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
 Workshop](../README.md#section-2---ansible-tower-exercises)
