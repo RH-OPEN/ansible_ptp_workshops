@@ -284,7 +284,7 @@ workflow template** のどちらかを選択できることに気付いたかも
   ![Add Node](images/add_node.png)
 
 新しいノードが表示され、ジョブテンプレートの名前で **START** ボタンに接続されます。ノードの上にマウスポインターに移動し、ノードの追加
-(+)、ノード詳細の表示(i)、ノードの編集(pencil)、利用可能なノード(chain)へのリンク、ノードの削除(trash
+(+)、ノード詳細の表示(i)、ノードの編集(pencil)、利用可能なノードへのリンク(chain)、ノードの削除(trash
 bin)　があることを確認します。
 
   ![workflow node](images/workflow_node.png)
