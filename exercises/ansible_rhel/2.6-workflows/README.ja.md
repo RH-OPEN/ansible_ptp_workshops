@@ -256,7 +256,7 @@ Playbook を作成します。一方、運用チームには、独自のリポ�
 ワークフローは **Template** ビューで設定されます。テンプレートを追加するときに、**Add job template** と **Add
 workflow template** のどちらかを選択できることに気付いたかもしれません。
 
-**Resources** -> **Templates** に移動し、**Add** ボタンをクリックして、**Add job template** を選択します。
+**Resources** -> **Templates** に移動し、**Add** ボタンをクリックして、**Add workflow template** を選択します。
 
   <table>
     <tr>
