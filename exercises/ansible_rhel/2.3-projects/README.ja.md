@@ -15,12 +15,12 @@
 
 ## 目的
 
-Ansible 自動コントローラー **Project** は、AnsiblePlaybook の論理的なコレクションです。Playbook
-は、Git、Subversion などの自動コントローラーがサポートするソースコード管理 (SCM) システムに配置することで管理できます。
+Ansible Automation Controller の **プロジェクト** は、AnsiblePlaybook の置き場所（ディレクトリールート）を示します。Playbook
+は、Git、Subversion などの Automation Controller がサポートするソースコード管理 (SCM) システムに配置することで管理できます。
 
 この演習では、以下について説明します。
 
-* Ansible 自動コントローラープロジェクトの概要と利用
+* Ansible Automation Controller プロジェクト の概要と利用
 * Git リポジトリーに保存されている AnsiblePlaybook の使用
 * Ansible ジョブテンプレートの作成と使用
 
@@ -75,7 +75,7 @@ Apache Web サーバーをインストールする Playbook が既に **rhel/apa
 >
 > 作成した Playbook の違いをメモしてください。最も重要なのは、`become` がなく、`hosts` が `all` に設定されていることです。
 
-自動コントローラーで **Source Control Management (SCM)**
+Automation Controller で **Source Control Management (SCM)**
 として、このレポジトリーを設定して使用するには、このレポジトリーを使用する **Project** を作成する必要があります。
 
 ### プロジェクトの作成
@@ -134,7 +134,7 @@ Apache Web サーバーをインストールする Playbook が既に **rhel/apa
 ### ジョブテンプレートの作成とジョブの実行
 
 ジョブテンプレートは、Ansible
-ジョブを実行するための定義とパラメーターのセットです。ジョブテンプレートは、同じジョブを何度も実行するのに役立ちます。したがって、自動コントローラーから
+ジョブを実行するための定義とパラメーターのセットです。ジョブテンプレートは、同じジョブを何度も実行するのに役立ちます。したがって、Automation Controller から
 Ansible **Job**を実行する前に、まとめる **Job Template** を作成する必要があります。
 
 * **Inventory**: ジョブが実行するホスト
