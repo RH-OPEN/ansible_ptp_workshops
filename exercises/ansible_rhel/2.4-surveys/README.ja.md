@@ -95,7 +95,7 @@ Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel
   </tr>
   <tr>
     <td>Playbook</td>
-    <td><code>rhel/apache/apache_surcey_install.yml</code></td>
+    <td><code>rhel/apache/apache_survey_install.yml</code></td>
   </tr>
   <tr>
     <td>Credentials</td>
