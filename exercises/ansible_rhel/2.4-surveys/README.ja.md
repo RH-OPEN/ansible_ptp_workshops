@@ -44,16 +44,15 @@ Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel
 [https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
 に既に存在します。
 
- Github UI にアクセスして、コンテンツを確認します。Playbook `apache__install.yml` は単にロールを参照します。ロールは、`roles/role_apache` サブディレクトリーにあります。
+ Github UI にアクセスして、Playbook `apache_survey_install.yml` の内容をを確認してみましょう。
 
-* ロール内で、`{{…​}}` でマークされている `templates/index.html.j2` テンプレートファイルの 2
+* テンプレートファイル `templates/index.html.j2` の中に、`{{…​}}` で記述されている 2
   つの変数をメモします。
-* また、テンプレートからファイルをデプロイする、`tasks/main.yml` のタスクを確認します。
 
 この Playbook はどのような操作を行うのでしょうか。テンプレート (**src**) の管理対象ホストでファイル (**dest**)
 を作成します。
 
-このロールは、Apache の静的構成も展開します。これにより、前の章で行ったすべての変更が上書きされ、例が正しく動作するようになります。
+この Playbook は、Apache の静的構成 (httpd.conf) の配布も実施します。これにより、前の章で行ったすべての変更が上書きされ、例が正しく動作するようになります。
 
 Playbook とロールは、`apache_install.yml` Playbook と同じ Github
 レポジシトリーにあるため、この演習用に新しいプロジェクトを構成する必要はありません。
