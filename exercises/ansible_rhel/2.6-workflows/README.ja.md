@@ -333,7 +333,7 @@ Hello World
 ---
 **ナビゲーション**
 <br>
-[前の演習](../2.5-rbac) - [次の演習](../2.7-wrap)
+[前の演習](../2.5-rbac/README.ja.md) - [次の演習](../2.7-wrap/README.ja.md)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
 Workshop](../README.md#section-2---ansible-tower-exercises)
