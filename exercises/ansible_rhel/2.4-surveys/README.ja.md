@@ -44,7 +44,7 @@ Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel
 [https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
 に既に存在します。
 
- Github UI にアクセスして、Playbook `apache_survey_install.yml` の内容をを確認してみましょう。
+* Github UI にアクセスして、Playbook `apache_survey_install.yml` の内容をを確認します。
 
 * テンプレートファイル `templates/index.html.j2` の中に、`{{…​}}` で記述されている 2
   つの変数をメモします。
