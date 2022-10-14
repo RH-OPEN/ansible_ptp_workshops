@@ -195,6 +195,6 @@ Playbook によって使用されている 2 つの変数が `index.html` ファ
 ---
 **ナビゲーション**
 <br>
-[Previous Exercise](../2.3-projects) - [Next Exercise](../2.5-rbac)
+[Previous Exercise](../2.3-projects/README.ja.md) - [Next Exercise](../2.5-rbac/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
