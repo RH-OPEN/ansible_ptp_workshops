@@ -18,12 +18,12 @@
 
 * 以下を見つけて理解:
 
-  * Ansible 自動コントローラー
+  * Ansible Automation Controller
     [**インベントリー**](https://docs.ansible.com/automation-controller/latest/html/userguide/inventories.html)
-  * Ansible 自動コントローラー
+  * Ansible Automation Controller 
     [**認証情報**](https://docs.ansible.com/automation-controller/latest/html/userguide/credentials.html)
 
-* Ansible 自動コントローラー WebUI を介したアドホックコマンドの実行
+* Ansible Automation Controller WebUI を介したアドホックコマンドの実行
 
 ## ガイド
 
@@ -41,7 +41,7 @@
 をクリックして、**Hosts** ボタンをクリックします。
 
 `~/lab_inventory/hosts` のインベントリー情報は、プロビジョニング目的の一環として Ansible
-自動コントローラーインベントリーに事前にロードされていました。
+Automation Controller インベントリーに事前にロードされていました。
 
 ```bash
 $ cat ~/lab_inventory/hosts
@@ -89,7 +89,7 @@ ansible ansible_host=11.22.33.44
 
 ### アドホックコマンドの実行
 
-Ansible 自動コントローラーからアドホックコマンドを実行することもできます。
+Ansible Automation Controller からアドホックコマンドを実行することもできます。
 
 * Web UIで、**Resource → Inventories → Workshop Inventory** に移動します。
 
