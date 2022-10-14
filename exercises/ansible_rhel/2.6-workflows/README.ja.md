@@ -313,7 +313,7 @@ Success**（デフォルト）が選択されていることを確認し、**Nex
 
   ![起動](images/launch.png)
 
-Jobs > Deploy Webapp Server Output にワークフローの実行が表示されていることに注意してください。通常のジョブテンプレートのジョブ実行とは異なり、ジョブが完了しても Playbook の出力はありませんが、ジョブが完了するまでの時間が表示されています。実際の Playbook の実行内容を見たい場合は、詳細を確認したいノードにカーソルを合わせてクリックします。ジョブの詳細表示の中で、**Output** メニューを選択すると、Playbook の出力が表示されます。Deploy WebappServer** ワークフローの **Output** ビューに戻りたい場合は、Views -> Jobs -> **XX - Deploy Webapp Server** で Output の概要に戻ることができます。 
+Jobs > Deploy Webapp Server Output にワークフローの実行が表示されていることに注意してください。通常のジョブテンプレートのジョブ実行とは異なり、ジョブが完了しても Playbook の出力はありませんが、ジョブが完了するまでの時間が表示されています。実際の Playbook の実行内容を見たい場合は、詳細を確認したいノードにカーソルを合わせてクリックします。ジョブの詳細表示の中で、**Output** メニューを選択すると、Playbook の出力が表示されます。**Deploy WebappServer** ワークフローの **Output** ビューに戻りたい場合は、Views -> Jobs -> **XX - Deploy Webapp Server** で Output の概要に戻ることができます。 
 
 注記: `XX` はジョブ実行の数に置き換えます。
 
