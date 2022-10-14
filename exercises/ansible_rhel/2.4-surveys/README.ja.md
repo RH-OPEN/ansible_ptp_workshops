@@ -40,11 +40,11 @@ Playbook の追加変数を設定しますが、ユーザーが使いやすい�
 
 ### Apache-configuration ロール
 
-Jinja2 テンプレートの Playbook とロールが、ディレクトリー `rhel/apache` の Github リポジトリー
+Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel/apache` の Github リポジトリー
 [https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
 に既に存在します。
 
- Github UI にアクセスして、コンテンツを確認します。Playbook `apache_role_install.yml` は単にロールを参照します。ロールは、`roles/role_apache` サブディレクトリーにあります。
+ Github UI にアクセスして、コンテンツを確認します。Playbook `apache__install.yml` は単にロールを参照します。ロールは、`roles/role_apache` サブディレクトリーにあります。
 
 * ロール内で、`{{…​}}` でマークされている `templates/index.html.j2` テンプレートファイルの 2
   つの変数をメモします。
@@ -96,7 +96,7 @@ Playbook とロールは、`apache_install.yml` Playbook と同じ Github
   </tr>
   <tr>
     <td>Playbook</td>
-    <td><code>rhel/apache/apache_role_install.yml</code></td>
+    <td><code>rhel/apache/apache_surcey_install.yml</code></td>
   </tr>
   <tr>
     <td>Credentials</td>
