@@ -1,24 +1,24 @@
-# ワークショップ演習 - Ansible 自動コントローラーの概要
+# ワークショップ演習 - Ansible Automation Controller の概要
 
 **他の言語でもお読みいただけます**:
 <br>![uk](../../../images/uk.png) [English](README.md)、![japan](../../../images/japan.png)[日本語](README.ja.md)、![brazil](../../../images/brazil.png) [Portugues do Brasil](README.pt-br.md)、![france](../../../images/fr.png) [Française](README.fr.md)、![Español](../../../images/col.png) [Español](README.es.md)
 
 ## 目次
 
-* [Ansible 自動コントローラー 4.0
+* [Ansible Automation Controller 4.0
   の新機能](#whats-new-in-ansible-automation-controller-40)
 * [Ansible Tower
-  が自動コントローラーに改名された理由](#why-was-ansible-tower-renamed-to-automation-controller)
-* [自動コントローラーのユーザー](#who-is-automation-controller-for)
+  が Automation Controller に改名された理由](#why-was-ansible-tower-renamed-to-automation-controller)
+* [Automation Controller のユーザー](#who-is-automation-controller-for)
 * [目的](#objective)
 * [ガイド](#guide)
-* [Ansible 自動コントローラーを使う理由](#why-ansible-automation-controller)
+* [Ansible Automation Controller を使う理由](#why-ansible-automation-controller)
 * [Ansible
-  自動コントローラーラボ環境](#your-ansible-automation-controller-lab-environment)
+   Automation Controller ラボ環境](#your-ansible-automation-controller-lab-environment)
 * [ダッシュボード](#dashboard)
 * [コンセプト](#concepts)
 
-## Ansible 自動コントローラー 4.0 の新機能
+## Ansible Automation Controller 4.0 の新機能
 
 Ansible Automation Platform 2 は、Red Hat
 の信頼できるエンタープライズテクノロジーの専門家による次回の進化版です。Ansible Automation Platform 2
@@ -26,14 +26,14 @@ Ansible Automation Platform 2 は、Red Hat
 
 コントローラーは、企業全体で自動化を定義、操作、および委譲するための標準化された方法を提供します。これにより、自動化チームが迅速にスケーリングおよび配信できる、新たなテクノロジーと強化されたアーキテクチャーが導入されました。
 
-### Ansible Tower が自動コントローラーに改名された理由
+### Ansible Tower が Automation Controller 改名された理由
 
 Ansible Automation Platform 2 は進化し続けるため、特定の機能は、以前は Ansible Tower
 と知ったものから切り離されたもの（将来のリリースで分離される）から切り離されました。これらの拡張機能および Ansible Automation
 Platform スイート内の全体の位置を反映させることは理にかなっています。
 
-### 自動コントローラーの対象ユーザー
-すべての自動化チームのメンバーが対話したり、直接的または間接的に自動化コントローラーに依存します。
+### Automation Controller の対象ユーザー
+すべての自動化チームのメンバーが対話したり、直接的または間接的に Automation Controller に依存します。
 
 * 自動化作成者は Ansible Playbook、ロール、およびモジュールを開発します。
 * 自動化アーキテクトはチーム全体で自動化を促進し、IT プロセスと合理化に合わせます。
@@ -46,7 +46,7 @@ Automation Operator は通常、責任に基づいて自動化コントローラ
 ## 目的
 
 以下の演習では、Red Hat Ansible
-自動コントローラーによって提供される機能の実行を含む、自動コントローラーの概要を説明します。次のような自動コントローラーの基本を対象とします。
+Automation Controller によって提供される機能の実行を含む、自動コントローラーの概要を説明します。次のような自動コントローラーの基本を対象とします。
 
 * ジョブテンプレート
 * プロジェクト
@@ -56,9 +56,9 @@ Automation Operator は通常、責任に基づいて自動化コントローラ
 
 ## ガイド
 
-### 自動コントローラーに移動します。
+###  Automation Controller に移動します。
 
-自動コントローラーは、IT 自動化のためのエンタープライズソリューションを提供する Web ベースの UI です。
+ Automation Controller、IT 自動化のためのエンタープライズソリューションを提供する Web ベースの UI です。
 
 * これには、ユーザーフレンドリーなダッシュボードがあります
 * 自動化、視覚的管理、監視機能を追加して Ansible を補佐
@@ -68,7 +68,7 @@ Automation Operator は通常、責任に基づいて自動化コントローラ
 * RESTfulAPI が利用可
 * その他いろいろ...
 
-### Ansible 自動コントローラーラボ環境
+### Ansible  Automation Controller ラボ環境
 
 このラボでは、事前設定されたラボ環境で作業します。ここでは、以下のホストにアクセスできます。
 
@@ -80,14 +80,14 @@ Automation Operator は通常、責任に基づいて自動化コントローラ
 | Managed Host 2                                | node3          |
 
 このラボの Ansible
-自動コントローラーは、個別にセットアップされています。作業を行うマシンへの適切なアクセス権があることを確認してください。Ansible
-自動コントローラーは、すでにインストールされてライセンス付与が行われています。Web UI は、HTTP/HTTPS でアクセスできます。
+Automation Controller は、個別にセットアップされています。作業を行うマシンへの適切なアクセス権があることを確認してください。Ansible
+Automation Controller は、すでにインストールされてライセンス付与が行われています。Web UI は、HTTP/HTTPS でアクセスできます。
 
 ### ダッシュボード
 
-自動コントローラーを最初に見てみましょう。指定の URL にブラウザでアクセスします。この URL は `https://student<X>.<workshopname>.demoredhat.com` のようなもので、`<X>` は、学習者番号に置き換え、`workshopname` は、現在のワークショップ名に置き換えます。次に `admin` としてログインします。このパスワードは、インストラクターから渡されます。
+Automation Controller を最初に見てみましょう。指定の URL にブラウザでアクセスします。この URL は `https://student<X>.<workshopname>.demoredhat.com` のようなもので、`<X>` は、学習者番号に置き換え、`workshopname` は、現在のワークショップ名に置き換えます。次に `admin` としてログインします。このパスワードは、インストラクターから渡されます。
 
-自動コントローラーのWeb UI では、次を示すグラフのあるダッシュボードが表示されます。
+Automation Controller のWeb UI では、次を示すグラフのあるダッシュボードが表示されます。
 
 * 最近のジョブのアクティビティー
 * 管理対象ホストの数
@@ -95,40 +95,40 @@ Automation Operator は通常、責任に基づいて自動化コントローラ
 
 このダッシュボードには、Playbook で完了したタスクの実行に関するリアルタイムデータも表示されます。
 
-![Ansible 自動コントロ−ラーダッシュボード](images/controller_dashboard.jpg)
+![Ansible Automation Controller ダッシュボード](images/controller_dashboard.jpg)
 
 ### コンセプト
 
-Ansible 自動コントローラーを使用する方法を詳しく説明する前に、いくつかの概念と命名規則について理解しておく必要があります。
+Ansible Automation Controller を使用する方法を詳しく説明する前に、いくつかの概念と命名規則について理解しておく必要があります。
 
 #### プロジェクト
 
-プロジェクトは、Ansible 自動コントローラーにある Ansible Playbook の論理的なコレクションです。これらの Playbook
+プロジェクトは、Ansible Automation Controller にある Ansible Playbook の論理的なコレクションです。これらの Playbook
 は、Ansible インスタンス、または自動コントローラーでサポートされているソースコードバージョン管理システムにあります。
 
 #### インベントリー
 
 インベントリーは、ジョブを起動できるホストのコレクションです (Ansible
 インベントリーファイルと同様)。インベントリーはグループに分類され、それらのグループには実際のホストが含まれます。グループは、ホスト名を
-自動コントローラーに入力して手動で取得することも、Ansible
-自動コントローラーのサポートされるクラウドプロバイダーや動的インベントリースクリプトから取得することもできます。
+Automation Controller に入力して手動で取得することも、Ansible
+Automation Controller のサポートされるクラウドプロバイダーや動的インベントリースクリプトから取得することもできます。
 
 #### 認証情報
 
-認証情報は、ジョブをマシンに対して起動したり、インベントリーソースと同期したり、プロジェクトのコンテンツをバージョン管理システムからインポートしたりする際の認証に自動コントローラーに使用されます。認証情報は、設定で見つかります。
+認証情報は、ジョブをマシンに対して起動したり、インベントリーソースと同期したり、プロジェクトのコンテンツをバージョン管理システムからインポートしたりする際の認証に Automation Controller に使用されます。認証情報は、設定で見つかります。
 
-自動コントローラーの認証情報は、自動コントローラーにインポートおよび暗号化されて保存されます。コマンドラインにおいてプレーンテキストで取得することはできません。実際に認証情報をユーザーに公開することなく、これらの認証情報を使用する機能をユーザーとチームに付与できます。
+Automation Controller の認証情報は、自動コントローラーにインポートおよび暗号化されて保存されます。コマンドラインにおいてプレーンテキストで取得することはできません。実際に認証情報をユーザーに公開することなく、これらの認証情報を使用する機能をユーザーとチームに付与できます。
 
 #### テンプレート
 
 ジョブテンプレートは、Ansible
 ジョブを実行するための定義であり、パラメーターセットでもあります。ジョブテンプレートは同じジョブを何度も実行する場合に便利です。また、ジョブテンプレートは
 Ansible playbook
-コンテンツの再利用およびチーム間のコラボレーションを促進します。ジョブを実行するには、自動コントローラーではジョブテンプレートを先に作成する必要があります。
+コンテンツの再利用およびチーム間のコラボレーションを促進します。ジョブを実行するには、Automation Controller ではジョブテンプレートを先に作成する必要があります。
 
 #### ジョブ
 
-ジョブは、Ansible Playbook をホストのインベントリーに対して起動する自動コントローラーのインスタンスです。
+ジョブは、Ansible Playbook をホストのインベントリーに対して起動する Automation Controller のインスタンスです。
 
 ---
 **ナビゲーション**
