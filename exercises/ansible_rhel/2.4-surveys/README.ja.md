@@ -169,8 +169,6 @@ Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel
 * **Save** をクリックします。
 * トグルをクリックして Survey の質問を **On** に切り替えます。
 
-* Survey の **Preview** をクリックします。
-
 ### テンプレートの起動
 
 **Details** タブを選択し、**Launch** ボタンをクリックしてジョブテンプレートの作成 **Create index.html**
