@@ -7,34 +7,34 @@
 
 * [目的](#objective)
 * [ガイド](#guide)
-* [Ansible 自動コントローラーユーザー](#ansible-automation-controller-users)
-* [Ansible 自動コントローラーチーム](#ansible-automation-controller-teams)
+* [Ansible Automation Conrtoller ユーザー](#ansible-automation-controller-users)
+* [Ansible Automation Conrtoller チーム](#ansible-automation-controller-teams)
 * [パーミッションの付与](#granting-permissions)
 * [パーミッションのテスト](#test-permissions)
 
 ## 目的
 
-Ansible 自動コントローラーが認証情報をユーザーから分離する方法をすでに学習しました。Ansible 自動コントローラーのもう 1
+Ansible Automation Controller が認証情報をユーザーから分離する方法をすでに学習しました。Ansible 自動コントローラーのもう 1
 つの利点は、ユーザーとグループの権利管理です。この演習では、役割ベースのアクセス制御 (RBAC) について説明します。
 
 ## ガイド
 
-### Ansible 自動コントローラーユーザー
+### Ansible Automation Controller ユーザー
 
-自動コントローラーユーザーには、以下の 3 つのタイプがあります。
+Automation Controller ユーザーには、以下の 3 つのタイプがあります。
 
 * **Normal User (通常ユーザー)**:
   このユーザーには、適切なロールや権限が付与されているユーザーのインベントリーやプロジェクトに限定される読み取りおよび書き込みアクセスがあります。
 
 * **System Auditor (システム監査者)**:
-  この監査者は、自動コントローラー環境内のすべてのオブジェクトの読み取り専用機能を暗黙的に継承します。
+  この監査者は、Automation Controller 環境内のすべてのオブジェクトの読み取り専用機能を暗黙的に継承します。
 
 * **System Administrator (システム管理者)**:
-  このユーザーには、自動コントローラーインストール全体にわたる管理者、読み込み、書き込み特権があります。
+  このユーザーには、Automation Controller インストール全体にわたる管理者、読み込み、書き込み特権があります。
 
 ユーザーを作成しましょう。
 
-* **Access** 下の自動化コントローラーメニューで、**Users** をクリックします。
+* **Access** 下のAutomation Controller メニューで、**Users** をクリックします。
 
 * **追加** ボタンをクリックします。
 
@@ -81,7 +81,7 @@ Ansible 自動コントローラーが認証情報をユーザーから分離す
 
 * **Save** をクリックします。
 
-### 自動コントローラーチーム
+### Automation Controller チーム
 
 Team (チーム)
 は、関連付けられたユーザー、プロジェクト、認証情報、およびパーミッションを持つ組織の下位区分のことです。チームは、ロールベースのアクセス制御スキームを実装し、組織全体で責任を委任する手段となります。たとえば、パーミッションは、チームの各ユーザーではなく、チーム全体に付与することができます。
@@ -134,7 +134,7 @@ Web サーバーのコンテンツのみを変更できるようにする必要�
 
 ### パーミッションのテスト
 
-次に、自動コントローラーの Web UI からログアウトし、**wweb** ユーザーとして再度ログインします。
+次に、Automation Controller の Web UI からログアウトし、**wweb** ユーザーとして再度ログインします。
 
 * **Templates** ビューに移動します。wweb については、`Create index.html`
   テンプレートが一覧表示されます。これはテンプレートを表示および起動することはできますが、編集することはできません。(Edit
@@ -162,7 +162,7 @@ Web サーバーのコンテンツのみを変更できるようにする必要�
 事実上、認証情報を配布したり、ユーザーに自動化コードを変更する機能を与えたりすることなく、別のユーザーに自動化を実行する機能を提供しました。また、同時に、ユーザーは作成した
 survey に基づいて変更を加えることができます。
 
-この機能は、Ansible 自動コントローラーの主な強みの1つです。
+この機能は、Ansible Automation Controller の主な強みの1つです。
 
 ---
 **ナビゲーション**
