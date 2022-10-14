@@ -320,7 +320,7 @@ ok: [node3] => {
 ----
 **ナビゲーション**
 <br>
-[前の演習](../2.6-workflows)
+[前の演習](../2.6-workflows/README.ja.md)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
 Workshop](../README.md#section-2---ansible-automation-controller-exercises)
