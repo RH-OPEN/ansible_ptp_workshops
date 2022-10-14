@@ -54,7 +54,7 @@ Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel
 
 この Playbook は、Apache の静的構成 (httpd.conf) の配布も実施します。これにより、前の章で行ったすべての変更が上書きされ、例が正しく動作するようになります。
 
-Playbook とロールは、`apache_install.yml` Playbook と同じ Github
+`apache_survey_install.yml` は、先ほど利用した `apache_install.yml` Playbook と同じ Github
 レポジシトリーにあるため、この演習用に新しいプロジェクトを構成する必要はありません。
 
 ### Survey を持つテンプレートの作成
