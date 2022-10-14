@@ -167,7 +167,7 @@ survey に基づいて変更を加えることができます。
 ---
 **ナビゲーション**
 <br>
-[前の演習](../2.4-surveys) - [次の演習](../2.6-workflows)
+[前の演習](../2.4-surveys/README.ja.md) - [次の演習](../2.6-workflows/README.ja.md)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
 Workshop](../README.md#section-2---ansible-tower-exercises)
