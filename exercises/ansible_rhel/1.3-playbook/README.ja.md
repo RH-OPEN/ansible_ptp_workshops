@@ -525,6 +525,6 @@ Apache がすべての Web
 ---
 **ナビゲーション**
 <br>
-[Previous Exercise](../1.2-thebasics/README.ja.md) - [Next Exercise](../1.4-variables/README.ja.md)
+[前の演習](../1.2-thebasics/README.ja.md) - [次の演習](../1.4-variables/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md#section-1---ansible-engine-exercises)
