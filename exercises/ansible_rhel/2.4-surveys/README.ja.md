@@ -38,7 +38,7 @@ Playbook の追加変数を設定しますが、ユーザーが使いやすい�
 >
 > この survey 機能では、データにシンプルな query を提供します。4 つの目の原則、動的データに基づいたクエリー、ネストメニューには対応していません。
 
-### Apache-configuration ロール
+### Apache-configuration
 
 Jinja2 テンプレートを使った Playbook が、ディレクトリー `rhel/apache` の Github リポジトリー
 [https://github.com/RH-OPEN/workshop-examples](https://github.com/RH-OPEN/workshop-examples)
