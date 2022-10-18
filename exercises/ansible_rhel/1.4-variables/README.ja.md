@@ -359,11 +359,6 @@ node3                      : ok=2    changed=0    unreachable=0    failed=0
 ---
 **ナビゲーション**
 <br>
-
-{% if page.url contains 'ansible_rhel_90' %}
-[Previous Exercise](../3-playbook) - [Next Exercise](../5-surveys)
-{% else %}
-[Previous Exercise](../1.3-playbook) - [Next Exercise](../1.5-handlers)
-{% endif %}
+[前の演習](../1.3-playbook/README.ja.md) - [次の演習](../1.5-handlers/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
