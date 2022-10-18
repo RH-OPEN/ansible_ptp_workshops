@@ -166,7 +166,6 @@ ansible-navigator:
 
 <br>
 
-[前の演習](../2-thebasics/README.ja.md)
 [次の演習](../1.2-thebasics/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
