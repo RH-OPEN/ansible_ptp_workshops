@@ -525,11 +525,6 @@ Apache がすべての Web
 ---
 **ナビゲーション**
 <br>
-
-{% if page.url contains 'ansible_rhel_90' %}
-[Previous Exercise](../2-thebasics) - [Next Exercise](../4-variables)
-{% else %}
-[Previous Exercise](../1.2-thebasics) - [Next Exercise](../1.4-variables)
-{% endif %}
+[Previous Exercise](../1.2-thebasics/README.ja.md) - [Next Exercise](../1.4-variables/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md#section-1---ansible-engine-exercises)
