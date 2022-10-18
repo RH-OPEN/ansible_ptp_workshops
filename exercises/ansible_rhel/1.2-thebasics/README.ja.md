@@ -190,9 +190,6 @@ $ :24
 ---
 **Navigation**
 [前の演習](../1-setup) - [次の演習](../3-playbook)
-{% else %}
-[Previous Exercise](../1.1-setup) - [Next Exercise](../1.3-playbook)
-{% endif %}
 <br><br>
 
 <br>
