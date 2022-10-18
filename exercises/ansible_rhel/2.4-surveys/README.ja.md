@@ -28,9 +28,9 @@ Playbook の追加変数を設定しますが、ユーザーが使いやすい�
 
 * jinja2 テンプレートを使って、`index.html`ファイルをデプロイします。
 
-* survey でジョブ **Template** を作成し、`index.html` テンプレートの値を収集します。
+* survey を含む **Job Template** を作成し、`index.html` テンプレートの値を収集します。
 
-* ジョブ **Template** を起動します。
+* **Job Template** を起動します。
 
 さらに、この演習のために Apache の設定が適切に設定されていることを確認する役割もあります。
 
