@@ -189,8 +189,7 @@ $ :24
 
 ---
 **Navigation**
-{% if page.url contains 'ansible_rhel_90' %}
-[Previous Exercise](../1-setup) - [Next Exercise](../3-playbook)
+[前の演習](../1-setup) - [次の演習](../3-playbook)
 {% else %}
 [Previous Exercise](../1.1-setup) - [Next Exercise](../1.3-playbook)
 {% endif %}
