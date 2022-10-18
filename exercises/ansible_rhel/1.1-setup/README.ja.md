@@ -166,10 +166,7 @@ ansible-navigator:
 
 <br>
 
-{% if page.url contains 'ansible_rhel_90' %}
-[Next Exercise](../2-thebasics)
-{% else %}
-[Next Exercise](../1.2-thebasics)
-{% endif %}
+[Next Exercise](../2-thebasics/README.ja.md)
+[Next Exercise](../1.2-thebasics/README.ja.md)
 <br><br>
 [Click here to return to the Ansible for Red Hat Enterprise Linux Workshop](../README.md)
