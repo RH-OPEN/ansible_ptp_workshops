@@ -188,9 +188,8 @@ $ :24
 > 実行環境によって、アクセスできるコレクションおよびそのコレクションのバージョンが異なります。組み込みのドキュメントを使用して、コレクションのその特定のバージョンに対して正確であることが分かります。
 
 ---
-[前の演習](../1-setup/README.ja.md) - [次の演習](../3-playbook/README.ja.md)
+[前の演習](../1.1-setup/README.ja.md) - [次の演習](../1.3-playbook/README.ja.md)
 <br><br>
-
 <br>
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
