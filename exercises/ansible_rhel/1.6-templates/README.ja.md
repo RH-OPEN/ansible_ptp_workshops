@@ -164,7 +164,7 @@ running kernel 4.18.0-305.12.1.el8_4.x86_64.
 ---
 **ナビゲーション**
 <br>
-[前の演習](../1.5-handlers) - [次の演習](../1.7-role)
+[前の演習](../1.5-handlers/README.ja.md) - [次の演習](../1.7-role/README.ja.md)
 
 [Click here to return to the Ansible for Red Hat Enterprise Linux
 Workshop](../README.md#section-1---ansible-engine-exercises)
