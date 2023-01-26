@@ -31,11 +31,11 @@ Platform
 を支えるフレームワーク、言語、機能を提供する基本的な実行ファイルです。また、`ansible`、`ansible-playbook`、`ansible-doc`
 などのさまざまなクリエートツールも含まれています。Ansible Coreは、無料でオープンソースのAnsibleを提供する上流のコミュニティと、Red
 Hatが提供する下流のエンタープライズオートメーション製品であるAnsible Automation Platformとの橋渡しの役割を果たします。-
-[実行環境](https://docs.ansible.com/automation-controller/latest/html/userguide/execution_environments.html)
-- このワークショップでは特に取り上げません。なぜなら、ビルトインの Ansible 実行環境には、Red
+- [実行環境](https://docs.ansible.com/automation-controller/latest/html/userguide/execution_environments.html)
+このワークショップでは特に取り上げません。なぜなら、ビルトインの Ansible 実行環境には、Red
 Hatがサポートするすべてのコレクションがすでに含まれており、このワークショップで使用するすべてのコレクションも含まれているからです。実行環境とは、Ansible
 の実行環境として利用できるコンテナイメージです。-
-[ansible-builder](https://github.com/ansible/ansible-builder) -
+- [ansible-builder](https://github.com/ansible/ansible-builder) -
 このワークショップでは特に取り上げませんが、`ansible-builder`
 は実行環境の構築プロセスを自動化するためのコマンドラインユーティリティです。
 
