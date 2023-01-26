@@ -26,7 +26,7 @@
 
 - [ansible-navigator](https://github.com/ansible/ansible-navigator) -
 Ansible オートメーションコンテンツを実行・開発するためのコマンドラインユーティリティとテキストベースのユーザーインターフェース（TUI）。-
-[ansible-core](https://docs.ansible.com/core.html) - Ansible Automation
+- [ansible-core](https://docs.ansible.com/core.html) - Ansible Automation
 Platform
 を支えるフレームワーク、言語、機能を提供する基本的な実行ファイルです。また、`ansible`、`ansible-playbook`、`ansible-doc`
 などのさまざまなクリエートツールも含まれています。Ansible Coreは、無料でオープンソースのAnsibleを提供する上流のコミュニティと、Red
